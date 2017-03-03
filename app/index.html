@@ -22,18 +22,9 @@
 
 
         <link rel="apple-touch-startup-image" href="https://rawgit.com/errisy/deploy/master/img/icon/koala512.png">
-
-        <script src="https://rawgit.com/errisy/deploy/master/node_modules/errisy-packer/index.js"></script>
-        <!-- Polyfill(s) for older browsers   -->
-        <!--<script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Intl.~locale.en"    ></script>-->
-        <script src="https://rawgit.com/errisy/deploy/master/node_modules/babel-polyfill/dist/polyfill.js"></script>
-        <script src="https://rawgit.com/errisy/deploy/master/node_modules/core-js/client/shim.js"></script>
-        <script src="https://rawgit.com/errisy/deploy/master/node_modules/zone.js/dist/zone.js"></script>
-        <script src="https://rawgit.com/errisy/deploy/master/node_modules/reflect-metadata/Reflect.js"></script>
-        <script src="https://rawgit.com/errisy/deploy/master/node_modules/systemjs/dist/system.src.js"></script>
-        <script src="https://rawgit.com/errisy/deploy/master/systemjs.config.js"></script>
+        <script src="https://rawgit.com/errisy/shop-deploy/master/app/sys.js"></script>
         <script>
-            System.import('app').catch(function(err){ console.error(err); });
+            System.import('https://rawgit.com/errisy/shop-deploy/master/app/app.js').catch(function (err) { console.error(err); });
         </script>
     </head>
     <body class="app">
