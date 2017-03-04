@@ -7,7 +7,7 @@
   "description": "Find your local deals for everyday life.",
 
   "display": "standalone",
-   "orientation": "portrait",
+  "orientation": "portrait",
   "permissions": [ "geolocation" ],
   "start_url": "index.html",
   "background_color": "#fff",
